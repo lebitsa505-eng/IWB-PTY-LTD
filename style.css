@@ -17,17 +17,15 @@ body {
 
 }
 
-
-/* ===== BOX STYLING FOR SERVICES ===== */
 .uuu {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px; /* space between boxes */
+  gap: 30px; 
   padding: 40px 20px;
 }
 
-/* Common box styles for all service sections */
+
 .services1, .services2, .services3 {
   background-color: #ecf0f1;
   color: #2c3e50;
@@ -40,13 +38,13 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect for interactivity */
+
 .services1:hover, .services2:hover, .services3:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
 }
 
-/* Headings inside boxes */
+
 .services1 h2,
 .services2 h3,
 .services3 h4 {
@@ -55,7 +53,7 @@ body {
   text-transform: uppercase;
 }
 
-/* Paragraphs inside boxes */
+
 .services1 p,
 .services2 p,
 .services3 p {
@@ -72,7 +70,7 @@ body {
 
 text-align: center;}
 
-/* ===== Base Header Styles ===== */
+
 .site-header {
   background: #16a085;
   padding: 20px;
@@ -81,7 +79,7 @@ text-align: center;}
   position: relative;
 }
 
-/* Menu styles */
+
 .menu {
   list-style: none;
   padding: 0;
@@ -105,7 +103,7 @@ text-align: center;}
   margin-top: 10px;
 }
 
-/* ===== Hamburger (hidden on desktop) ===== */
+
 .menu-toggle {
   display: none;
 }
@@ -120,9 +118,8 @@ text-align: center;}
   color: white;
 }
 
-/* ===== Mobile Styles ===== */
 @media (max-width: 768px) {
-  /* Hide the inline menu by default */
+ 
   .menu {
     display: none;
     flex-direction: column;
@@ -138,12 +135,12 @@ text-align: center;}
     margin: 15px 0;
   }
 
-  /* Show hamburger icon */
+  
   .hamburger {
     display: block;
   }
 
-  /* When menu is checked, show the nav */
+
   #menu-toggle:checked + .hamburger + .nav .menu {
     display: flex;
   }
@@ -176,4 +173,5 @@ footer {
   margin-top: 20px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
+
 
