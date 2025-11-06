@@ -188,7 +188,7 @@ footer {
 }
 
 
-.content-section p {
+.content-section p,h4 {
   margin: 0 0 0.9rem 0; 
   color: #222;
 }
@@ -207,6 +207,7 @@ footer {
     border-radius: 8px;
   }
 }
+
 
 
 
