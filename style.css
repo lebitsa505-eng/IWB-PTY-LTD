@@ -188,9 +188,13 @@ footer {
 }
 
 
-.content-section p,h4 {
+.content-section p {
   margin: 0 0 0.9rem 0; 
   color: #222;
+}
+.content-section h4{
+
+  color: green;
 }
 
 .content-section p:last-child {
@@ -203,5 +207,6 @@ footer {
     border-radius: 8px;
   }
 }
+
 
 
